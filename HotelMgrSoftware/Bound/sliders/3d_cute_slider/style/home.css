@@ -1,0 +1,308 @@
+	.pageContainer .shareContainer{
+		height: 30px;
+		position: relative;
+		left: 33%;
+		width: 50%;
+	}
+	
+	.pageContainer .shareContainer .fb-like{
+		position:relative;
+		top: -5px;
+		padding-right:5px;
+	}
+	
+	.pageContainer .shareContainer #___plusone_0{
+		width:64px !important;
+	}
+	
+	.pageContainer .shareContainer .twitter-share-button{
+		width:85px !important;
+	}
+	
+
+.pageContainer .featuresSection .featureContent{
+		width: 435px;
+	}
+	
+	
+	.pageContainer .featuresSection header h2{
+		position:relative;
+		z-index: 1;
+	}
+	
+	.pageContainer .featuresSection header h4{
+		position: relative;
+		z-index: 0;
+		font-size: 4em;
+		font-weight: 100;
+		color: #E9E9E9;
+		top: 1px;
+		left: -5px;
+		letter-spacing: -5px;
+	}
+	
+	.pageContainer .featuresSection .featureContent p{
+		font-size: 0.73em;
+		line-height: 160%;
+	}
+	
+	.pageContainer .featureSpliter{
+		clear: both;
+		border-width: 1px 0 0 0;
+		border-style: dashed;
+		line-height: 0;
+		margin:0;
+	}
+	
+	
+	.pageContainer .featuresSection .feature .right{	float:right;}
+	
+	.pageContainer .featuresSection .feature .left {	float:left;	}
+	
+	/*responsive*/
+	.pageContainer .featuresSection .feature-resp .featureContent{
+		width: 44%;
+		margin-top: 93px;
+		margin-left: 10px; 
+	}
+	.pageContainer .featuresSection .feature-resp img{
+		margin-top: 60px;
+		width: 52%;
+		margin-bottom: 21px;
+	}
+	
+	/*3d and 2d*/
+	.pageContainer .featuresSection .feature-3d .featureContent{margin-top:60px; margin-bottom:45px; margin-left:10px; width:50%; }
+	.pageContainer .featuresSection .feature-3d img{	margin-top: 75px;}
+	
+	/*templates*/
+	.pageContainer .featuresSection .feature-temp .featureContent{
+		margin-top: 75px;
+		width: 60%;
+		margin-left: 10px;
+	}
+	.pageContainer .featuresSection .feature-temp img{
+		margin-right: 30px;
+		margin-bottom: 18px;
+	}
+	
+	/*+100 transitions*/
+	.pageContainer .featuresSection .feature-trans .featureContent{ 
+		margin-top: 85px;
+		width: 53%;
+		height:220px;
+	}
+	.pageContainer .featuresSection .feature-trans img{margin-top:0; margin-left: 10px;}
+	
+	/*3 fallback levels*/
+	.pageContainer .featuresSection .feature-fb .featureContent{ 
+		margin-top:83px;
+		width: 49%;
+		height:250px;
+		margin-left: 10px;
+	}
+	.pageContainer .featuresSection .feature-fb img{margin-top:40px; width:47%;}
+	
+	/* cross browser and device friendly*/
+	.pageContainer .featuresSection .feature-cb .featureContent{ 
+		margin-top: 110px;
+		width: 57%;
+		z-index: 1;
+	}
+	.pageContainer .featuresSection .feature-cb img{
+		margin: 0 0 50px;
+		position: relative;
+		left: -36px;
+		width:43%;
+	}
+	
+	/* transition gallery*/
+	.pageContainer .featuresSection .feature-tg .featureContent{ 
+		margin-top: 122px;
+		width: 50%;
+		height: 250px;
+		margin-left: 10px;
+	}
+	.pageContainer .featuresSection .feature-tg img{margin-top: 28px; width:48%;}
+	
+	/* fully customizable*/
+	.pageContainer .featuresSection .feature-fc .featureContent{ 
+		margin-top:70px;
+		width: 48%;
+		height:250px;
+	}
+	.pageContainer .featuresSection .feature-fc img{margin-top:8px; width:49%;}
+	
+
+
+	/****
+	 * Responsive 
+	 */
+
+	@media screen and (max-width:707px){
+		
+		
+		/* responsive */
+		.pageContainer .featuresSection .feature-resp img {
+			margin-top: 75px;
+			margin-bottom: -14px;
+			left: 50%;
+			position: relative;
+			margin-left: -213px;
+			float: none !important;
+			width: auto;
+		}
+		
+		.pageContainer .featuresSection .feature-resp .featureContent {
+			margin-top: 20px;
+			width: auto !important;
+			padding: 17px 10% 38px;
+		}
+		
+		/* 3D and 2D Transtision */
+		.pageContainer .featuresSection .feature-3d img {
+			margin-top: 75px;
+			margin-bottom: -14px;
+			left: 50%;
+			position: relative;
+			margin-left: -175px;
+			float:none !important;
+		}
+		
+		.pageContainer .featuresSection .feature-3d .featureContent {
+			margin-top: 20px;
+			width: auto !important;
+			padding: 0 10%;
+		}
+		
+		/* templates */
+		.pageContainer .featuresSection .feature-temp img {
+			margin-bottom: -14px;
+			left: 50%;
+			position: relative;
+			margin-left: -100px;
+			float: none !important;
+		}
+		
+		.pageContainer .featuresSection .feature-temp .featureContent {
+			margin-top: 20px;
+			width: auto !important;
+			padding: 0 10% 40px;
+		}
+		
+		/* 100+ */
+		
+		.pageContainer .featuresSection .feature-trans img {
+			margin-left: -160px;
+			float: none !important;
+			left: 50%;
+			position: relative;
+		}
+		
+		.pageContainer .featuresSection .feature-trans .featureContent {
+			width: auto;
+			margin-top:0;
+			height: auto;
+			padding: 50px 12%;
+		}
+		
+		
+		/* fallback */
+		
+		.pageContainer .featuresSection .feature-fb img {
+			margin-top: 40px;
+			width: auto;
+			left: 50%;
+			margin-left: -197px;
+			position: relative;
+			float:none !important;
+		}
+		
+		.pageContainer .featuresSection .feature-fb .featureContent {
+			margin-top: 0;
+			width: auto;
+			height: auto;
+			margin-left: 0;
+			padding: 30px 12%;
+			min-width: 245px;
+		}
+		
+		/* cross browser */
+		.pageContainer .featuresSection .feature-cb .featureContent {
+			width: auto;
+			margin-top: 0;
+			padding: 40px 12%;
+		}
+		
+		.pageContainer .featuresSection .feature-cb img {
+			left: 50%;
+			width: auto;
+			margin: 0;
+			margin-left: -166px;
+		}
+		
+		.pageContainer .featuresSection .feature-cb header h4 {
+			font-size: 3em;
+		}
+		
+		/* transition gallery */
+		
+		.pageContainer .featuresSection .feature-tg img {
+			width: auto;
+			position: relative;
+			left: 50%;
+			margin-left: -197px;
+			float: none !important;
+		}
+		.pageContainer .featuresSection .feature-tg .featureContent {
+			margin-top: 0;
+			width: auto;
+			height: auto;
+			padding: 45px 12%;
+		}
+		
+		.pageContainer .featuresSection .feature-tg header h4 {
+			font-size: 3.1em;
+		}
+		
+		/* customizable */
+		.pageContainer .featuresSection .feature-fc img {
+			width: auto;
+			float: none !important;
+			position: relative;
+			left: 50%;
+			margin-left: -184px;
+		}
+		
+		.pageContainer .featuresSection .feature-fc .featureContent {
+			margin-top: 0;
+			width: auto;
+			height: auto;
+			padding: 39px 11%;
+		}
+		
+	}
+	
+	
+	@media screen and (max-width:400px){
+		
+		.feature-fb img , .feature-tg img , .feature-3d img , .feature-fc img , .feature-resp img{
+			width: 100% !important;
+			margin-left: -50% !important;
+		}
+		
+		.pageContainer .featuresSection header h4 {
+			font-size: 3.4em;
+		}
+		
+		.pageContainer .featuresSection .feature-tg header h4 {
+			font-size: 2.7em;
+		}
+		
+		.pageContainer .featuresSection .feature-cb header h4 {
+			font-size: 2.5em;
+		}
+		
+		
+	}
+

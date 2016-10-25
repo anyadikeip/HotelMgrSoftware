@@ -1,0 +1,280 @@
+.ps-container
+{
+    position: absolute;
+    width: 100%;
+    height: 622px;
+    overflow: hidden;
+}
+
+.ps-container > div
+{
+    position: absolute;
+    width: 50%;
+    height:522px;
+    overflow:hidden;
+}
+
+.ps-container > div > div, .ps-nav, .ps-slides > div
+{
+    position: absolute;
+}
+
+
+
+.ps-contentwrapper
+{
+    top: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.ps-content
+{
+    padding: 0 20px 0 0;
+}
+
+.ps-content h2
+{
+    margin: 0px 0 20px;
+    text-align: left;
+}
+
+.ps-content p
+{
+}
+
+.ps-content span.ps-price
+{
+    float: left;
+    margin: 10px;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    color: #fff;
+    background: #f7cfc6;
+    background: rgba(247,197,185,0.8);
+    font-size: 55px;
+    font-weight: 200;
+}
+
+
+
+.ps-slidewrapper
+{
+    right: 0px;
+    top: 0px;
+    height: 60%;
+    overflow: hidden;
+}
+
+.ps-slides
+{
+    top: 0px;
+    bottom: 200px;
+    width: 100%;
+    overflow:hidden;
+}
+
+.ps-slides > div
+{
+    width: 96%;
+    height: 100%;
+    box-shadow: inset 0 0 0 9999px rgba(179,157,250,0.1);
+}
+
+.ps-nav
+{
+    width: 96%;
+    /*height: 200px;*/
+    bottom: 0px;
+    z-index: 1000;
+}
+
+.ps-nav > a
+{
+    width: 25%;
+    height: 100px;
+    position: relative;
+    float: left;
+    box-shadow: inset 0 0 0 9999px rgba(207,227,206,0.8);
+    outline: none;
+}
+#ps-nav > a
+{
+    box-shadow:none!important;
+   
+    }
+
+.ps-nav > a:first-child
+{
+    box-shadow: inset 0 0 0 9999px rgba(233,217,141,0.8);
+}
+
+.no-touch .ps-nav > a
+{
+    -webkit-transition: box-shadow 0.4s ease-in-out;
+    -moz-transition: box-shadow 0.4s ease-in-out;
+    -ms-transition: box-shadow 0.4s ease-in-out;
+    -o-transition: box-shadow 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.no-touch .ps-nav > a:hover
+{
+    box-shadow: inset 0 0 0 9999px rgba(246,224,121,0.1);
+}
+
+.no-touch .ps-nav > a:first-child:hover
+{
+    box-shadow: inset 0 0 0 9999px rgba(249,15,15,0.1);
+}
+
+#ps-nav > a:after
+{
+    content: '';
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
+#ps-nav > a
+{
+    background: none !important;
+    background-color: transparent;
+    opacity: 1;
+}
+.ps-nav > a:after
+{
+      content: '';
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -50px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.ps-nav > a:first-child:after
+{
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    margin: -80px 0 0 -50px;
+}
+
+.ps-slides > div, .ps-nav > a
+{
+    background-color: #fff;
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    background-size: auto 100%;
+}
+
+.ps-move
+{
+    -webkit-transition: top 400ms ease-out;
+    -moz-transition: top 400ms ease-out;
+    -o-transition: top 400ms ease-out;
+    -ms-transition: top 400ms ease-out;
+    transition: top 400ms ease-out;
+}
+
+@media screen and (max-width: 860px)
+{
+
+    .js .ps-container > div
+    {
+        width: 100%;
+    }
+
+    .js .ps-header
+    {
+        height: 50px;
+    }
+
+    .js .ps-header h1
+    {
+        line-height: 50px;
+        padding: 0px 20px;
+        letter-spacing: 4px;
+    }
+
+    .js .ps-slides
+    {
+        bottom: 320px;
+        top: 50px;
+    }
+
+    .js .ps-slidewrapper > nav
+    {
+        height: 100px;
+    }
+
+    .js .ps-contentwrapper
+    {
+        top: auto;
+        height: 220px;
+        bottom: 100px;
+    }
+
+    .js .ps-content
+    {
+        padding: 10px;
+    }
+
+    .js .ps-content h2
+    {
+        border-right: none;
+        font-size: 18px;
+        margin: 10px 0;
+        padding-top: 0;
+    }
+
+    .js .ps-content span.ps-price
+    {
+        font-size: 18px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .js .ps-content p
+    {
+        line-height: 20px;
+        border: none;
+        padding: 5px 10px;
+        height: 80px;
+        overflow-y: scroll;
+    }
+
+    .js .ps-content a:last-child
+    {
+        font-size: 13px;
+        margin: 10px 20px 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+

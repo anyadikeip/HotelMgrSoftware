@@ -1,0 +1,110 @@
+
+/* ---- Header ---- */
+
+.main-text {
+	margin: 30px auto 30px auto;
+	text-align:center;
+}
+
+
+
+
+/* ---- Main Area ---- */
+
+#main {
+	position: relative;
+	margin: 30px auto 30px auto;
+	padding: 25px 0 15px 20px;
+	background:#fff;
+	border:1px solid rgba(200,200,200,0.8);
+}
+
+
+
+/* ---- Counter ---- */
+.under-construction #counter{background: #fff;}
+#counter {
+	
+	width:700px;
+	margin: 0 auto;
+	font-family: 'LeagueGothicRegular', Arial, Helvetica, sans-serif;
+	font-size: 92px;
+	overflow: hidden;
+	
+}
+
+.countDays, .countHours, .countMinutes, .countSeconds {
+	float: left;
+	width: 102px;
+	height: 138px;
+	padding-left: 36px;
+}
+
+.points {
+	float: left;
+	width: 40px;
+	margin: 0;
+	font-family: Georgia, serif;
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 138px;
+	text-shadow: none;
+}
+
+.position {
+	position: relative;
+	float: left;
+	width: 35px;
+	height: 92px;
+	margin: 8px 0 0 0;
+}
+
+.digit {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.boxName {
+	float: left;
+	
+	margin: -5px 0 0 7px;
+	font-size: 36px;
+	
+	
+}
+
+.Hours { margin-left: 5px; }
+.Seconds { margin-left: 2px; }
+
+
+
+/* ---- Subscription Form ---- */
+
+#main form {
+	position: relative;
+	margin: 40px auto 0 auto;
+}
+
+#main  .email {
+	width: 85%;
+	height: 35px;
+	padding: 0 15px;
+	font-style: italic;
+	margin:0 auto;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#counter { width:300px; }
+	.points { display:none;}
+	#main  form { text-align:center; }
+	
+}
+@media only screen and (max-width: 767px) {
+	#main { padding: 10px 0px 5px 11px; }
+	#counter { width:300px; }
+	.points { display:none;}
+	#main  form { text-align:center; }
+}

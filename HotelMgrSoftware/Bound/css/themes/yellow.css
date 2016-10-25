@@ -1,0 +1,100 @@
+/* Yellow Skin Colors #FFD62C
+================================================== */
+
+.countDays, .countHours, .countMinutes, .countSeconds {
+	background: #FFD62C;
+	color: #272727;
+}
+.boxName {
+	color: #555;
+}
+span.color, a:hover, .navigation ul li ul li a:hover, .recent-blog .tags-comments a:hover, .tags-comments2 a:hover, #accordion h3:hover a, ul.team li:hover h3, .choose ul li:hover, .our-services ul li:hover h3, .square-list li:hover, .square-list li a:hover, .check-list li:hover, .check-list li a:hover, .plus-list li:hover, .plus-list li a:hover, .arrow-list li:hover, .arrow-list li a:hover, .cross-list li:hover, .cross-list li a:hover, .star-list li:hover, .star-list li a:hover, .minus-list li:hover, .minus-list li a:hover, .arrow2-list li:hover, .arrow2-list li a:hover, .circle-list li:hover, .circle-list li a:hover, .breadcrumbs li a, .comment a, h1.big, .tweet_list li a, .under-construction .copyright a {
+	color: #373737;
+}
+.navigation ul li ul li a:hover, .tables-column .list li.odd, #clock-ticker .block, input.subscribe-text {
+	background: #fffccd;
+}
+::-moz-selection {
+ background:#fffaa5;
+ color:#373737;
+}
+::selection {
+	background: #fffaa5;
+	color: #373737;
+}
+.navigation ul li a:hover, .navigation ul li a.selected, .navigation ul li a.active {
+	background: #FFD62C;
+}
+span.line, .services .item:hover .square, .services .item.active .square, a.link, #accordion h3.ui-state-active, .meter > span:after, .animate > span > span, .icon-box, .button.color, .button.black:hover, .highlight-color, .blue .colorTip, #toggle-view li h3.color, .dropcap.color, .pagination.color li a.current, .pagination.color li a:hover, .tables-column.featured .header h3, .tables-column .footer.gray h3 span:hover, .tables-column .footer.black h3 span:hover, .tables-column.featured .footer h3 span, #options li a:hover, #options li a.selected, .popular-tags a:hover, .date-post .day, .date-post .month, .ei-slider-thumbs li.ei-slider-element, #under-construction {
+	background: #FFD62C;
+	outline: 0;
+}
+.subscribe input.submit {
+	background: #FFFAA5;
+	color: #686868
+}
+.nivo-directionNav a:hover {
+	background-color: #FFD62C;
+}
+.ca-more {
+	background: #FFD62C;
+	color: #fff;
+}
+#horizontal-tabs ul.tabs li.current, #horizontal-tabs ul.tabs li:hover {
+	background: #fff;
+	color: #686868;
+	border: 1px solid #eee;
+	border-bottom: 1px solid #fff;
+	border-top: 2px solid #FFD62C;
+}
+#vertical-tabs ul.tabs li {
+	background: #fff;
+	color: #686868;
+	border: 1px solid #eee;
+}
+#vertical-tabs ul.tabs li.current, #vertical-tabs ul.tabs li:hover {
+	color: #686868;
+	border-right: 1px solid #fff;
+	border-left: 2px solid #FFD62C;
+}
+.ei-slider-thumbs li.ei-slider-element {
+	background: rgba(0,174,200,0.9);
+}
+.tabscontent.color {
+	background-color: #00aec8 !important;
+}
+.services .item:hover, .services .item.active {
+	border-right: 5px solid #00aec8;
+}
+.recent-work .item:hover, .lightbox .item:hover, .portfolio .item:hover {
+	background: #FFFAA5;
+	border-bottom: 4px solid #FFD62C;
+}
+.sti-menu li a:hover {
+	border-bottom: 5px solid #00aec8;
+}
+.service-boxes i:hover, .service-boxes:hover i, .service-boxes:hover h3 a {
+	color: #FFD62C !important;
+}
+.colored {
+	background: #FFFAA5;
+}
+.colored-grey {
+	background: #535353;
+	color: #fff;
+}
+/* another color in hover from dark yellow */
+.subscribe input.submit:hover, .tables-column.featured .header h1 {
+	background: #FFD62C;
+}
+* .icon.color {
+	background: url(../../images/icons/icons/icons-blue.png) no-repeat;
+}
+.flex-direction-nav li .next {
+	background: #FFD62C url(../../images/icons/project-slider-arrow-right.png) no-repeat;
+	background-position: 55% 50%;
+}
+.flex-direction-nav li .prev {
+	background: #FFD62C url(../../images/icons/project-slider-arrow-left.png) no-repeat;
+	background-position: 45% 50%;
+}
